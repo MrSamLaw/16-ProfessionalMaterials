@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Sam Law - Full Stack Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@900&display=swap"
+        rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header id="header" class="flex align-items-center justify-content-center vh-100">
+            <div class="welcome">
+                <div class="lead">
+                    "Hello, I am <strong>Sam Law</strong>." <br />
+                    "I'm an aspiring full-stack developer."
+                </div>
+                <a href="#portfolio"><button type="button" class="btn btn-dark">Let's Connect</button></a>
+            </div>
+        </header>
+
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h4 class="text-white">Collapsed content</h4>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <a class="navbar-brand" href="#">MR SAM LAW</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <section id="portfolio" class="mb-5">
+                <header>
+                    <h2>Portfolio</h2>
+                </header>
+
+                <div class="container-fluid">
+                    <div class="row" id="portfolioCards">
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="about" class="mb-5">
+                <header>
+                    <h2>About Me</h2>
+                </header>
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-3 col-sm mx-auto">
+                            <figure>
+                                <img src="assets/images/SamLawProfile.jpg" alt="" class="responsive">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-sm mx-auto">
+                            <p>I am an up and coming full-stack developer who embraces the line between the creative and
+                                the technical. Having a great eye for detail and problem solving skills, I
+                                am keen to learn whatever I can, to help the world live with a better internet full of
+                                great code, that enhances user experience through great designs and implementation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class=" mb-5">
+                <header ">
+                    <h2>Contact Me</h2>
+                </header>
+                <div class=" container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm mx-auto">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-primary text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Phone</h4>
+                                                <p class="card-text">Drop me a line to discuss any projects we could
+                                                    collaborate on</p>
+                                                <a href="tel:+61123456789" class="btn btn-primary"><i
+                                                        class="bi bi-telephone-fill"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-info text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">CV</h4>
+                                                <p class="card-text">See more details on my CV, or download a copy</p>
+                                                <a href="https://bit.ly/2QHkW34" target="_blank"
+                                                    class="btn btn-primary"><i
+                                                        class="bi bi-file-earmark-person-fill"></i></a>
+                                                <a href="./assets/files/SAMLAW-CV.pdf" download="SAMLAW-CV"
+                                                    class="btn btn-primary"><i
+                                                        class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-primary text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Email</h4>
+                                                <p class="card-text"><strong>sam@chongland.com</strong><br /><br />
+                                                    Send me an email to collaborate</p>
+                                                <a href="mailto:sam@chongland.com?subject=Portfolio Contact"
+                                                    class="btn btn-primary"><i class="bi bi-envelope-fill"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-success text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">GitHub</h4>
+                                                <p class="card-text"><strong>GitHub.com/MrSamLaw</strong><br /><br />My
+                                                    GitHub houses
+                                                    some of
+                                                    the projects I've worked on</p>
+                                                <a href="https://github.com/mrsamlaw" target="_blank"
+                                                    class="btn btn-primary"><i class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-info text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">LinkedIn</h4>
+                                                <p class="card-text">Let's Link Up</p>
+                                                <a href="https://www.linkedin.com/in/mrsamlaw" target="_blank"
+                                                    class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-sm mx-auto">
+                            <figure class="card contact-form">
+                                <h4 class="card-title">Drop me a message</h4>
+                                <form>
+                                    <div class="form-group p-2">
+                                        <label for="nameInput">Name</label>
+                                        <input type="text" class="form-control my-2" id="nameInput" name="name"
+                                            placeholder="Samuel L Jackson">
+                                        <label for="emailInput">Email</label>
+                                        <input type="text" class="form-control my-2" id="emailInput" name="email"
+                                            placeholder="you@yourdomain.com">
+                                        <label for="messageInput">Message</label>
+                                        <textarea class="form-control" id="messageInput" name="message" rows="3"
+                                            placeholder="How can I help?"></textarea>
+                                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                                    </div>
+                                </form>
+                            </figure>
+                        </div>
+                    </div>
+        </div>
+        </section>
+    </div>
+    </div>
+    </div>
+    <footer id="footer">
+        <div class="container-fluid">
+            <p class="text-center">Simply CSS, Imagination & Inspiration</p>
+        </div>
+    </footer>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
