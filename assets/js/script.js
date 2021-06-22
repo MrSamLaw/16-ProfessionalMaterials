@@ -8,6 +8,22 @@ const repos = {
         screenshot: "./assets/images/ANZ-Travel-Bubble-Landing.png",
     },
     2: {
+        title: "AutoMate",
+        description: "A developing CRM for Automotive Workshops",
+        tech: ["CSS", "JavaScript", "Bootstrap", "SQL", "Node.js", "Express", "Sequelize", "Handlebars", "DotEnv", "Heroku"],
+        repo: "https://github.com/MrSamLaw/AutoMate",
+        URL: "https://p2-automate.herokuapp.com/",
+        screenshot: "./assets/images/AutoMate.png",
+    },
+    3: {
+        title: "Talkin' Tech Tech Blog",
+        description: "a CMS style Blog with the ability for multiple authors to write posts as well as comment on them.",
+        tech: ["Node.js", "Express", "Express Sessions", "Sequelize", "Handlebars", "BCrypt", "DotEnv", "JAWSDB", "Bootstrap"],
+        repo: "https://github.com/MrSamLaw/Tech-Blog",
+        URL: "https://sl-tech-blog.herokuapp.com/",
+        screenshot: "./assets/images/Tech-Blog.png",
+    },
+    4: {
         title: "Everyweather You Go! - Weather Dashboard",
         description: "A weather dashboard that uses API calls to determine the weather of a city",
         tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Moment JS", "API"],
@@ -15,7 +31,7 @@ const repos = {
         URL: "https://mrsamlaw.github.io/06-WeatherDashboard/",
         screenshot: "./assets/images/WeatherDashboard.png",
     },
-    3: {
+    5: {
         title: "Harder Better Faster Stronger - Work Day Planner",
         description: "A way to efficiently manage your work time - an app to plan out your work day hour by hour",
         tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Moment JS"],
@@ -23,7 +39,23 @@ const repos = {
         URL: "https://mrsamlaw.github.io/WorkDayPlanner/",
         screenshot: "./assets/images/DayPlanner.png",
     },
-    4: {
+    6: {
+        title: "E-Commerce Backend",
+        description: "The back-end for an e-Commerce site",
+        tech: ["Node.js", "Express", "DotEnv", "Sequelize", "SQL"],
+        repo: "https://github.com/MrSamLaw/E-Commerce-Backend",
+        URL: "#",
+        screenshot: "./assets/images/eCommerce.png",
+    },
+    7: {
+        title: "Note-Taker",
+        description: "An express Note-Taker",
+        tech: ["Node.js", "Express"],
+        repo: "https://github.com/MrSamLaw/Note-Taker",
+        URL: "https://desolate-reef-25794.herokuapp.com/",
+        screenshot: "./assets/images/Note-Taker.png",
+    },
+    8: {
         title: "Password Generator",
         description: "An application that enables employees to generate random passwords based on criteria that they’ve selected",
         tech: ["HTML", "CSS", "JavaScript"],
