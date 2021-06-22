@@ -1,58 +1,67 @@
-:root{
-    --color-darkred:#1c1212;
-    --color-288red:#bf1c26;
-    --color-288redalpha:rgba(191,28,38,.6);
-    --color-creamred:#f5b99f;
-    --color-creamredalpha:rgba(245,185,159,.6);
+:root {
+  --color-darkred: #1c1212;
+  --color-288red: #bf1c26;
+  --color-288redalpha: rgba(191, 28, 38, 0.6);
+  --color-creamred: #f5b99f;
+  --color-creamredalpha: rgba(245, 185, 159, 0.6);
 }
 
+/* * {
+  border: 0.5px solid #fff;
+} */
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 a {
-    text-decoration: none;
-    color: unset;   
+  text-decoration: none;
+  color: unset;
 }
 
 body {
-    background-color: var(--color-darkred);
-    color: var(--color-creamred);
-    font-family: 'Montserrat', Arial, sans-serif;
+  background-color: var(--color-darkred);
+  color: var(--color-creamred);
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', "Franklin Gothic Medium", Tahoma, sans-serif;
-    text-transform: uppercase;
-    letter-spacing:-0.1em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.1em;
 }
 
 /* Breakpoint guidelines */
 #wrapper {
-    width:95%;
-    margin: 0 auto; 
-} 
+  width: 95%;
+  margin: 0 auto;
+}
 
 header {
-    padding-top: 53px;
+  padding-top: 53px;
 }
 .card {
-    background-color: transparent;
+  background-color: transparent;
 }
 .btn-primary {
-    color: var(--color-darkred);
-    background-color: var(--color-creamred);
-    border-color: var(--color-darkred);
+  color: var(--color-darkred);
+  background-color: var(--color-creamred);
+  border-color: var(--color-darkred);
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 
-.navbar {    
-    top:0;
-    min-height:50px;
-    background-color: var(--color-288red);
-    border-bottom: 3px solid var(--color-288redalpha);
-    /* z-index:99; */
+.navbar {
+  top: 0;
+  min-height: 50px;
+  background-color: var(--color-288red);
+  border-bottom: 3px solid var(--color-288redalpha);
+  /* z-index:99; */
 }
 
 /* {
@@ -65,135 +74,134 @@ header {
     right: 5px;
 } */
 .burger-menu input#open-menu {
-    display:none;
-    padding: 5px;
-    position: absolute;
-    top:5px;
-    right:5px;
+  display: none;
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 .menu-content {
-    text-align: center;
-    max-height:0;
-    overflow:hidden;
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
 }
 .menu-content li {
-    padding: 4px 0
+  padding: 4px 0;
 }
 .menu-content a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color:var(--color-creamred);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-creamred);
 }
 .menu-content a:hover {
-    color: var(--color-darkred);
+  color: var(--color-darkred);
 }
 /* Toggle Effect */
 input:checked ~ .menu-content {
-    max-height: 100%;
+  max-height: 100%;
 }
 
 #portfolio h2,
 #about h2,
 #contact h2 {
-    padding: 0 3rem;
-    margin-top: 50px;
-    line-height: 2rem;
-    font-size:3rem;
-    background-color: var(--color-288redalpha);
-    color:var(--color-darkred);
+  padding: 0 3rem;
+  margin-top: 50px;
+  line-height: 2rem;
+  font-size: 3rem;
+  background-color: var(--color-288redalpha);
+  color: var(--color-darkred);
 }
 
 .responsive {
-    max-width: 100%;
-    height:auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
 .contact-form {
-    color: var(--color-creamred);
+  color: var(--color-creamred);
 }
 
 .contact-form h4 {
-    padding:0;
-    margin:0;
-    text-transform:uppercase;
-    margin:2rem 0 1rem
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  margin: 2rem 0 1rem;
 }
 
-
 form {
-    font-size:4rem;
-    width:100%;
-    color: var(--color-creamredalpha);
+  font-size: 4rem;
+  width: 100%;
+  color: var(--color-creamredalpha);
 }
 
 ::placeholder {
-    color: var(--color-creamredalpha);
+  color: var(--color-creamredalpha);
 }
 
-input, textarea {
-    font-size: 2rem;
+input,
+textarea {
+  font-size: 2rem;
 }
 
-form input[type=email],
-form input[type=text],
+form input[type="email"],
+form input[type="text"],
 form textarea,
 form select {
-    appearance:none;
-    border:none;
-    border:3px solid var(--color-creamredalpha)!important;
-    box-sizing:inherit;
-    padding:2rem 1.5rem;
-    width:100%;
-    color:var(--color-288red)!important;
-    outline:0;
-    background-color:transparent!important;
-    transition:.3s border;
-    border-radius:3px;
+  appearance: none;
+  border: none;
+  border: 3px solid var(--color-creamredalpha) !important;
+  box-sizing: inherit;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  color: var(--color-288red) !important;
+  outline: 0;
+  background-color: transparent !important;
+  transition: 0.3s border;
+  border-radius: 3px;
 }
 
-form input[type=email]:focus,
-form input[type=text]:focus,
+form input[type="email"]:focus,
+form input[type="text"]:focus,
 form textarea:focus,
 form select:focus {
-    border:3px solid var(--color-288redalpha);
+  border: 3px solid var(--color-288redalpha);
 }
 
 form label {
-    display:block;
-    font-size:1rem;
-    padding:2.5rem 0 1.2rem;
-    color:var(--color-creamred);
-} 
+  display: block;
+  font-size: 1rem;
+  padding: 2.5rem 0 1.2rem;
+  color: var(--color-creamred);
+}
 
 form label.required:after {
-    color:red;
-    content:' *';
-} 
+  color: red;
+  content: " *";
+}
 form button {
-    border:3px solid var(--color-creamredalpha);
-    background-color:transparent;
-    padding:1rem 1.5rem;
-    color:var(--color-creamred);
-    font-weight:700;
-    font-size:1.4rem;
-    border-radius:3px;
-    transition:.3s border,.3s color;
-    box-shadow:5px 5px var(--color-288redalpha);
+  border: 3px solid var(--color-creamredalpha);
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  color: var(--color-creamred);
+  font-weight: 700;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  transition: 0.3s border, 0.3s color;
+  box-shadow: 5px 5px var(--color-288redalpha);
 }
 
 form button:hover {
-    border:3px solid var(--color-creamredalpha);
-    color:var(--color-288red);
+  border: 3px solid var(--color-creamredalpha);
+  color: var(--color-288red);
 }
 
 #footer {
-    margin-top: 1.5rem;
-    text-align: center;
-    height: 50px;
-    background-color: var(--color-creamred);
-    padding: 1rem 0;
-    color: var(--color-darkred);
+  margin-top: 1.5rem;
+  text-align: center;
+  height: 50px;
+  background-color: var(--color-creamred);
+  padding: 1rem 0;
+  color: var(--color-darkred);
 }
 
 /* // Small devices (landscape phones, 576px and up) */
